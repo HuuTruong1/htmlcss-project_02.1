@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #1EBFC1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 5000px;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    background: var(--primary-color);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 12px 0;
+    background-color: #fff;
+}
+
+.header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header__navbar {
+    display: flex;
+}
+
+.navbar__item {
+    padding: 5px 20px;
+    color: #2F3A3B;
+    font-size: 1.6rem;
+}
+
+.navbar__item.active {
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
+}
+
+.action__btn--signIn {
+    color: #494949;
+    font-size: 1.6rem;
+    margin-right: 24px;
+}
+
+.action__btn--signUp {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+}
+
+.action__btn--signIn:hover,
+.action__btn--signUp:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.intro {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__info {
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro__desc {
+    color: #767E7E;
+    font-size: 1.4rem;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.intro__title {
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    margin-bottom: 46px;
+}
+
+.intro__desc:last-of-type {
+    margin-bottom: 0px;
+}
+
+.intro__btn {
+    margin-top: 52px;
+    display: flex;
+    gap: 50px;
+}
+
+.intro__btn--play {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 50%;
+}
+
+.intro__btn--play:hover,
+.intro__btn--start:hover {
+    opacity: 0.8;
+}
+
+.intro__thumb {
+    width: 49%;
+    background-color: #e0f7f6;
+    position: relative;
+}
+
+.intro__courses {
+    width: 157px;
+    height: 75px;
+    padding: 17px 25px;
+    border-radius: 18px;
+    background: #FEFEFD;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    left: -40px;
+    top: 150px;
+}
