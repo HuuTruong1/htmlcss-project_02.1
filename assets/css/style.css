@@ -18,7 +18,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    height: 5000px;
+    
 }
 
 /* Common */
@@ -164,3 +164,58 @@ a {
     left: -40px;
     top: 150px;
 }
+
+/* Features */
+.features__text {
+    padding-top: 130px;
+    max-width: 521px;
+    height: 220px;
+}
+.features__text--title {
+    text-transform: uppercase;
+    font-style: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.features__text--content {
+    margin-top: 16px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.features__text--desc {
+    margin-top: 16px;
+    color: #767E7E;
+    line-height: 1.4;
+}
+
+.features__section {
+    max-width: 1024px;
+    height: 260px;
+    display: flex;
+    padding-top: 160px;
+}
+.features__section--group1 {
+    max-width: 168px;
+}
+.features__section--title {
+    margin-top: 26px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.features__section--desc {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #9DA6A5;
+    line-height: 1.4;
+}
+.features__section--group2 {
+    max-width: 223px;
+    margin-left: 250px;
+}
+
+
+.features__section--group3 {
+    max-width: 224px;
+    margin-left: 250px;
+} 
