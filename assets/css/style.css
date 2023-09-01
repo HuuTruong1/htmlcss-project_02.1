@@ -18,7 +18,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    
+
 }
 
 /* Common */
@@ -171,18 +171,21 @@ a {
     max-width: 521px;
     height: 220px;
 }
+
 .features__text--title {
     text-transform: uppercase;
     font-style: 16px;
     font-weight: 400;
     letter-spacing: 4px;
 }
+
 .features__text--content {
     margin-top: 16px;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.4;
 }
+
 .features__text--desc {
     margin-top: 16px;
     color: #767E7E;
@@ -195,20 +198,24 @@ a {
     display: flex;
     padding-top: 160px;
 }
+
 .features__section--group1 {
     max-width: 168px;
 }
+
 .features__section--title {
     margin-top: 26px;
     font-size: 16px;
     font-weight: 600;
 }
+
 .features__section--desc {
     margin-top: 16px;
     font-size: 13px;
     color: #9DA6A5;
     line-height: 1.4;
 }
+
 .features__section--group2 {
     max-width: 223px;
     margin-left: 250px;
@@ -218,4 +225,206 @@ a {
 .features__section--group3 {
     max-width: 224px;
     margin-left: 250px;
-} 
+}
+
+/* Courses */
+.courses {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses__text {
+    max-width: 530px;
+}
+
+.courses__text--title {
+    color: #767E7E;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.courses__text--body {
+    color: #0D1111;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.courses__text--desc {
+    color: #767E7E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.courses__text--link {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.courses__text--link a {
+    color: #1EBFC1;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+/* Courses */
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 80px;
+    position: relative;
+}
+
+.card__list--img {
+    border-radius: 8px;
+    opacity: 0.76;
+    background: #D0EFED;
+}
+
+.card__list--item {
+    position: absolute;
+    top: 85%;
+    width: 325px;
+    transform: translate(5%);
+    height: 170px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card__list--title {
+    color: #0D1111;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 18px 16px 0px 25px;
+}
+
+.card__list--price {
+    color: #767E7E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 18px 0px 25px;
+}
+
+.card__list--price span {
+    color: #0D1111;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card__list--desc {
+    color: #9DA6A5;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 4px 25px;
+}
+
+.card__list--recommand ul {
+    display: flex;
+    gap: 20px;
+    margin: 16px 42px;
+    list-style: disc;
+}
+
+.card__list--recommand ul li {
+    color: #9DA6A5;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Feedback */
+.feedback {
+    padding-top: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedback__courses span {
+    color: #0D1111;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feedback__courses h2 {
+    color: #767E7E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback__skill span {
+    color: #0D1111;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feedback__skill h2 {
+    color: #767E7E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.feedback__learning span {
+    color: #0D1111;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feedback__learning h2 {
+    color: #767E7E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
